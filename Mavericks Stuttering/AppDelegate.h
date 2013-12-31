@@ -7,9 +7,15 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "MSDRenderingModes.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) MSDRenderingMode renderingMode;
+
+- (IBAction)selectRenderingMode:(id)sender;
+- (IBAction)run:(id)sender;
+- (IBAction)stop:(id)sender;
 
 @end

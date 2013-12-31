@@ -18,6 +18,10 @@
 		40344AB918724EDB00991C95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40344A9818724EDA00991C95 /* Cocoa.framework */; };
 		40344AC118724EDB00991C95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40344ABF18724EDB00991C95 /* InfoPlist.strings */; };
 		40344AC318724EDB00991C95 /* Mavericks_StutteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40344AC218724EDB00991C95 /* Mavericks_StutteringTests.m */; };
+		40344ACE18724F2300991C95 /* MSDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 40344ACD18724F2300991C95 /* MSDWindow.m */; };
+		40344AD118724F2F00991C95 /* MSDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40344AD018724F2F00991C95 /* MSDView.m */; };
+		40344AD418729CE600991C95 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40344AD318729CE600991C95 /* CoreVideo.framework */; };
+		40344AD618729CEA00991C95 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40344AD518729CEA00991C95 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,13 @@
 		40344ABE18724EDB00991C95 /* Mavericks StutteringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mavericks StutteringTests-Info.plist"; sourceTree = "<group>"; };
 		40344AC018724EDB00991C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		40344AC218724EDB00991C95 /* Mavericks_StutteringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mavericks_StutteringTests.m; sourceTree = "<group>"; };
+		40344ACC18724F2200991C95 /* MSDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDWindow.h; sourceTree = "<group>"; };
+		40344ACD18724F2300991C95 /* MSDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDWindow.m; sourceTree = "<group>"; };
+		40344ACF18724F2F00991C95 /* MSDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDView.h; sourceTree = "<group>"; };
+		40344AD018724F2F00991C95 /* MSDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDView.m; sourceTree = "<group>"; };
+		40344AD21872537B00991C95 /* MSDRenderingModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDRenderingModes.h; sourceTree = "<group>"; };
+		40344AD318729CE600991C95 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		40344AD518729CEA00991C95 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40344AD618729CEA00991C95 /* OpenGL.framework in Frameworks */,
+				40344AD418729CE600991C95 /* CoreVideo.framework in Frameworks */,
 				40344A9918724EDA00991C95 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,6 +108,8 @@
 		40344A9718724EDA00991C95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40344AD518729CEA00991C95 /* OpenGL.framework */,
+				40344AD318729CE600991C95 /* CoreVideo.framework */,
 				40344A9818724EDA00991C95 /* Cocoa.framework */,
 				40344AB718724EDB00991C95 /* XCTest.framework */,
 				40344A9A18724EDA00991C95 /* Other Frameworks */,
@@ -115,8 +130,13 @@
 		40344A9E18724EDA00991C95 /* Mavericks Stuttering */ = {
 			isa = PBXGroup;
 			children = (
+				40344AD21872537B00991C95 /* MSDRenderingModes.h */,
 				40344AAA18724EDB00991C95 /* AppDelegate.h */,
 				40344AAB18724EDB00991C95 /* AppDelegate.m */,
+				40344ACC18724F2200991C95 /* MSDWindow.h */,
+				40344ACD18724F2300991C95 /* MSDWindow.m */,
+				40344ACF18724F2F00991C95 /* MSDView.h */,
+				40344AD018724F2F00991C95 /* MSDView.m */,
 				40344AAD18724EDB00991C95 /* MainMenu.xib */,
 				40344AB018724EDB00991C95 /* Images.xcassets */,
 				40344A9F18724EDA00991C95 /* Supporting Files */,
@@ -254,6 +274,8 @@
 			files = (
 				40344AAC18724EDB00991C95 /* AppDelegate.m in Sources */,
 				40344AA518724EDB00991C95 /* main.m in Sources */,
+				40344ACE18724F2300991C95 /* MSDWindow.m in Sources */,
+				40344AD118724F2F00991C95 /* MSDView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +364,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.8;
 			};
 			name = Debug;
 		};
@@ -374,8 +396,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx10.8;
 			};
 			name = Release;
 		};
@@ -387,6 +409,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mavericks Stuttering/Mavericks Stuttering-Prefix.pch";
 				INFOPLIST_FILE = "Mavericks Stuttering/Mavericks Stuttering-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -400,6 +423,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mavericks Stuttering/Mavericks Stuttering-Prefix.pch";
 				INFOPLIST_FILE = "Mavericks Stuttering/Mavericks Stuttering-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
