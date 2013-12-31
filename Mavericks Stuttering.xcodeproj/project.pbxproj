@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40344A9918724EDA00991C95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40344A9818724EDA00991C95 /* Cocoa.framework */; };
+		40344AA318724EDA00991C95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40344AA118724EDA00991C95 /* InfoPlist.strings */; };
+		40344AA518724EDB00991C95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40344AA418724EDB00991C95 /* main.m */; };
+		40344AA918724EDB00991C95 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40344AA718724EDB00991C95 /* Credits.rtf */; };
+		40344AAC18724EDB00991C95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40344AAB18724EDB00991C95 /* AppDelegate.m */; };
+		40344AAF18724EDB00991C95 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40344AAD18724EDB00991C95 /* MainMenu.xib */; };
+		40344AB118724EDB00991C95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40344AB018724EDB00991C95 /* Images.xcassets */; };
+		40344AB818724EDB00991C95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40344AB718724EDB00991C95 /* XCTest.framework */; };
+		40344AB918724EDB00991C95 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40344A9818724EDA00991C95 /* Cocoa.framework */; };
+		40344AC118724EDB00991C95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40344ABF18724EDB00991C95 /* InfoPlist.strings */; };
+		40344AC318724EDB00991C95 /* Mavericks_StutteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40344AC218724EDB00991C95 /* Mavericks_StutteringTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40344ABA18724EDB00991C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40344A8D18724EDA00991C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40344A9418724EDA00991C95;
+			remoteInfo = "Mavericks Stuttering";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40344A9518724EDA00991C95 /* Mavericks Stuttering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mavericks Stuttering.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40344A9818724EDA00991C95 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		40344A9B18724EDA00991C95 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		40344A9C18724EDA00991C95 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		40344A9D18724EDA00991C95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40344AA018724EDA00991C95 /* Mavericks Stuttering-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mavericks Stuttering-Info.plist"; sourceTree = "<group>"; };
+		40344AA218724EDA00991C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40344AA418724EDB00991C95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40344AA618724EDB00991C95 /* Mavericks Stuttering-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mavericks Stuttering-Prefix.pch"; sourceTree = "<group>"; };
+		40344AA818724EDB00991C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		40344AAA18724EDB00991C95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40344AAB18724EDB00991C95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40344AAE18724EDB00991C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		40344AB018724EDB00991C95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40344AB618724EDB00991C95 /* Mavericks StutteringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mavericks StutteringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40344AB718724EDB00991C95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		40344ABE18724EDB00991C95 /* Mavericks StutteringTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mavericks StutteringTests-Info.plist"; sourceTree = "<group>"; };
+		40344AC018724EDB00991C95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40344AC218724EDB00991C95 /* Mavericks_StutteringTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mavericks_StutteringTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40344A9218724EDA00991C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40344A9918724EDA00991C95 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40344AB318724EDB00991C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40344AB918724EDB00991C95 /* Cocoa.framework in Frameworks */,
+				40344AB818724EDB00991C95 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40344A8C18724EDA00991C95 = {
+			isa = PBXGroup;
+			children = (
+				40344A9E18724EDA00991C95 /* Mavericks Stuttering */,
+				40344ABC18724EDB00991C95 /* Mavericks StutteringTests */,
+				40344A9718724EDA00991C95 /* Frameworks */,
+				40344A9618724EDA00991C95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40344A9618724EDA00991C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40344A9518724EDA00991C95 /* Mavericks Stuttering.app */,
+				40344AB618724EDB00991C95 /* Mavericks StutteringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40344A9718724EDA00991C95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40344A9818724EDA00991C95 /* Cocoa.framework */,
+				40344AB718724EDB00991C95 /* XCTest.framework */,
+				40344A9A18724EDA00991C95 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40344A9A18724EDA00991C95 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40344A9B18724EDA00991C95 /* AppKit.framework */,
+				40344A9C18724EDA00991C95 /* CoreData.framework */,
+				40344A9D18724EDA00991C95 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		40344A9E18724EDA00991C95 /* Mavericks Stuttering */ = {
+			isa = PBXGroup;
+			children = (
+				40344AAA18724EDB00991C95 /* AppDelegate.h */,
+				40344AAB18724EDB00991C95 /* AppDelegate.m */,
+				40344AAD18724EDB00991C95 /* MainMenu.xib */,
+				40344AB018724EDB00991C95 /* Images.xcassets */,
+				40344A9F18724EDA00991C95 /* Supporting Files */,
+			);
+			path = "Mavericks Stuttering";
+			sourceTree = "<group>";
+		};
+		40344A9F18724EDA00991C95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40344AA018724EDA00991C95 /* Mavericks Stuttering-Info.plist */,
+				40344AA118724EDA00991C95 /* InfoPlist.strings */,
+				40344AA418724EDB00991C95 /* main.m */,
+				40344AA618724EDB00991C95 /* Mavericks Stuttering-Prefix.pch */,
+				40344AA718724EDB00991C95 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40344ABC18724EDB00991C95 /* Mavericks StutteringTests */ = {
+			isa = PBXGroup;
+			children = (
+				40344AC218724EDB00991C95 /* Mavericks_StutteringTests.m */,
+				40344ABD18724EDB00991C95 /* Supporting Files */,
+			);
+			path = "Mavericks StutteringTests";
+			sourceTree = "<group>";
+		};
+		40344ABD18724EDB00991C95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40344ABE18724EDB00991C95 /* Mavericks StutteringTests-Info.plist */,
+				40344ABF18724EDB00991C95 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40344A9418724EDA00991C95 /* Mavericks Stuttering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40344AC618724EDB00991C95 /* Build configuration list for PBXNativeTarget "Mavericks Stuttering" */;
+			buildPhases = (
+				40344A9118724EDA00991C95 /* Sources */,
+				40344A9218724EDA00991C95 /* Frameworks */,
+				40344A9318724EDA00991C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mavericks Stuttering";
+			productName = "Mavericks Stuttering";
+			productReference = 40344A9518724EDA00991C95 /* Mavericks Stuttering.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40344AB518724EDB00991C95 /* Mavericks StutteringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40344AC918724EDB00991C95 /* Build configuration list for PBXNativeTarget "Mavericks StutteringTests" */;
+			buildPhases = (
+				40344AB218724EDB00991C95 /* Sources */,
+				40344AB318724EDB00991C95 /* Frameworks */,
+				40344AB418724EDB00991C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40344ABB18724EDB00991C95 /* PBXTargetDependency */,
+			);
+			name = "Mavericks StutteringTests";
+			productName = "Mavericks StutteringTests";
+			productReference = 40344AB618724EDB00991C95 /* Mavericks StutteringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40344A8D18724EDA00991C95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Figure 53";
+				TargetAttributes = {
+					40344AB518724EDB00991C95 = {
+						TestTargetID = 40344A9418724EDA00991C95;
+					};
+				};
+			};
+			buildConfigurationList = 40344A9018724EDA00991C95 /* Build configuration list for PBXProject "Mavericks Stuttering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40344A8C18724EDA00991C95;
+			productRefGroup = 40344A9618724EDA00991C95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40344A9418724EDA00991C95 /* Mavericks Stuttering */,
+				40344AB518724EDB00991C95 /* Mavericks StutteringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40344A9318724EDA00991C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40344AA318724EDA00991C95 /* InfoPlist.strings in Resources */,
+				40344AB118724EDB00991C95 /* Images.xcassets in Resources */,
+				40344AA918724EDB00991C95 /* Credits.rtf in Resources */,
+				40344AAF18724EDB00991C95 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40344AB418724EDB00991C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40344AC118724EDB00991C95 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40344A9118724EDA00991C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40344AAC18724EDB00991C95 /* AppDelegate.m in Sources */,
+				40344AA518724EDB00991C95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40344AB218724EDB00991C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40344AC318724EDB00991C95 /* Mavericks_StutteringTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40344ABB18724EDB00991C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40344A9418724EDA00991C95 /* Mavericks Stuttering */;
+			targetProxy = 40344ABA18724EDB00991C95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40344AA118724EDA00991C95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40344AA218724EDA00991C95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40344AA718724EDB00991C95 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40344AA818724EDB00991C95 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		40344AAD18724EDB00991C95 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40344AAE18724EDB00991C95 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		40344ABF18724EDB00991C95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40344AC018724EDB00991C95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40344AC418724EDB00991C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		40344AC518724EDB00991C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		40344AC718724EDB00991C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mavericks Stuttering/Mavericks Stuttering-Prefix.pch";
+				INFOPLIST_FILE = "Mavericks Stuttering/Mavericks Stuttering-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40344AC818724EDB00991C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mavericks Stuttering/Mavericks Stuttering-Prefix.pch";
+				INFOPLIST_FILE = "Mavericks Stuttering/Mavericks Stuttering-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		40344ACA18724EDB00991C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mavericks Stuttering.app/Contents/MacOS/Mavericks Stuttering";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mavericks Stuttering/Mavericks Stuttering-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mavericks StutteringTests/Mavericks StutteringTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		40344ACB18724EDB00991C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Mavericks Stuttering.app/Contents/MacOS/Mavericks Stuttering";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mavericks Stuttering/Mavericks Stuttering-Prefix.pch";
+				INFOPLIST_FILE = "Mavericks StutteringTests/Mavericks StutteringTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40344A9018724EDA00991C95 /* Build configuration list for PBXProject "Mavericks Stuttering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40344AC418724EDB00991C95 /* Debug */,
+				40344AC518724EDB00991C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40344AC618724EDB00991C95 /* Build configuration list for PBXNativeTarget "Mavericks Stuttering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40344AC718724EDB00991C95 /* Debug */,
+				40344AC818724EDB00991C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40344AC918724EDB00991C95 /* Build configuration list for PBXNativeTarget "Mavericks StutteringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40344ACA18724EDB00991C95 /* Debug */,
+				40344ACB18724EDB00991C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40344A8D18724EDA00991C95 /* Project object */;
+}
