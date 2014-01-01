@@ -17,10 +17,10 @@ When two NSOpenGLViews are rendering to different screens, each using its own di
 
 ### Steps to reproduce
 
-1) Create two borderless windows, one filling each of two displays.
-2) Make each window's content view an instance of an NSOpenGLView subclass.
-3) Make each view set up its own display link for the screen it's on.
-4) Start rendering, and keep track of the refresh rate.
+1. Create two borderless windows, one filling each of two displays.
+2. Make each window's content view an instance of an NSOpenGLView subclass.
+3. Make each view set up its own display link for the screen it's on.
+4. Start rendering, and keep track of the refresh rate.
 
 ### Expected results
 
@@ -34,10 +34,10 @@ If (and only if) the external display is completely covered by one of these view
 
 The same code renders at full framerate (or close enough to appear smooth) if any of the following is true:
 
-1) it is run in 10.8.x or earlier.
-2) any amount of the external display (even a single row of pixels) is left unoccluded by the borderless window.
-3) rendering happens only on one display.
-4) the window is set to non-opaque, with any alpha value < 1.0 (though overall performance is degraded by the extra load on WindowServer).
+1. it is run in 10.8.x or earlier.
+2. any amount of the external display (even a single row of pixels) is left unoccluded by the borderless window.
+3. rendering happens only on one display.
+4. the window is set to non-opaque, with any alpha value < 1.0 (though overall performance is degraded by the extra load on WindowServer).
 
 ### Notes
 
