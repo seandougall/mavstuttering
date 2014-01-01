@@ -3,6 +3,8 @@ Mavericks Stuttering
 
 This is a demo app to illustrate bad refresh rates in OS X 10.9 Mavericks.
 
+Filed as Radar #15735292 on 2013-12-31.
+
 ## About the bug
 
 ### Title
